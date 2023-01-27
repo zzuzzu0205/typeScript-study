@@ -1,9 +1,7 @@
-function add(num1, num2) {
-  console.log(num1 + num2);
+function showItem(arr) {
+  arr.foreach((item) => {
+    console.log(item);
+  });
 }
 
-add();
-add(1);
-add(1, 2);
-add(3, 4, 5);
-add("hello", "world");
+showItem([1, 2, 3]);
